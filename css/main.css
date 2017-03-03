@@ -1,0 +1,448 @@
+/*
+	Harper - Minimal Portfolio Template
+	Main Stylesheet File, Version 1.0.0
+	Copyright (c) 2013, Carvd Themes (https://creativemarket.com/carvdthemes)
+*/
+
+
+/* ==========================================================================
+   HTML5 Boilerplate Styles
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px dotted #aaa;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Harper's Custom Styles
+   ========================================================================== */
+
+/* General / Misc */
+
+body {
+	background-color: #fcfcfc;
+	font-family: 'PT Sans', sans-serif;
+	color: #777;
+}
+
+img {
+	max-width: 100%;
+	height: auto !important;
+}
+
+img, .embedded-video-container {
+	margin-bottom: 1em;
+}
+
+.block-centred {
+	display: block;
+	margin: 0 auto 1em;
+}
+
+/* Columns */
+
+#page-content {
+	max-width: 1000px;
+	min-width: 320px;
+	margin: -30px auto 0;
+}
+
+#page-content-wrapper {
+	padding: 1em 3%;
+}
+
+.one-third, .two-thirds, .one-half, .one-third-smaller, .two-thirds-smaller, .one-half-smaller {
+	position: relative;
+	margin-right: 2%;
+	float: left;
+}
+
+.one-third-smaller, .two-thirds-smaller, .one-half-smaller {
+	margin-right: 6.5%;
+}
+
+.one-third {
+	width: 32%;
+}
+
+.one-third-smaller {
+	width: 29%;
+}
+
+.two-thirds {
+	width: 66%;
+}
+
+.two-thirds-smaller {
+	width: 64.5%;
+}
+
+.one-half {
+	width: 49%;
+}
+
+.one-half-smaller {
+	width: 46.75%;
+}
+
+.last {
+	margin-right: 0 !important;
+	clear: right;
+}
+
+/* Typography */
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+
+a {
+	color: #aaa;
+	text-decoration: none;
+}
+
+a.button, input[type="submit"] {
+	font-family: 'PT Sans', sans-serif;
+	color: #aaa;
+	padding: .5em 1em;
+	margin: 0 1em 1em 0;
+	border: 2px solid #aaa;
+	background-color: #fff;
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	border-radius: 5px;
+}
+
+/* Header */
+
+#page-header {
+	padding: 2em 0;
+	margin-bottom: 3em;
+	border-bottom: 1px dotted #aaa;
+	font-weight: bold;
+}
+
+#logo {
+	color: #aaa;
+}
+
+#page-typography-logo {
+	display: inline-block;
+}
+
+#page-typography-logo h1 {
+	margin: 0;
+	display: inline-block;
+	letter-spacing: .1em;
+}
+
+#page-nav {
+	padding-top: 1.5em;
+	text-align: right;
+}
+
+#page-nav ul {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+#page-nav li {
+	display: inline-block;
+	text-align: right;
+	margin: 1em 0 0 2.5em;
+}
+
+#page-nav .current {
+	color: #333;
+}
+
+/* Works */
+
+#project-thumbs a {
+	margin-bottom: 2%;
+}
+
+#project-thumbs img {
+	margin-bottom: 0;
+}
+
+#project-thumbs h4 {
+	margin: .5em 0;
+	text-align: center;
+}
+
+/* Blog */
+
+.blog-feed-item, #full-project {
+	padding-bottom: 2em;
+	margin-bottom: 2em;
+	border-bottom: 1px dotted #ccc;
+}
+
+.blog-feed-item header h2 {
+	margin: 0;
+}
+
+.blog-feed-item header h5 {
+	margin-top: .5em;
+	font-weight: normal;
+}
+
+#blog-feed-pagination, #posts-navigation, #projects-navigation {
+	padding: 2em 0 2.5em;
+	text-align: center;
+}
+
+#blog-feed-pagination :last-child, #posts-navigation :last-child, #projects-navigation :last-child {
+	margin-right: 0;
+}
+
+.widget {
+	margin-bottom: 3em;
+}
+
+/* Contact */
+
+input[type="text"], textarea {
+	font-family: 'PT Sans', sans-serif;
+	color: #777;
+	padding: .5em;
+	border: 1px solid #aaa;
+}
+
+#contact-form {
+	margin-right: 1em;
+}
+
+#contact-form, #contact-form p {
+	padding: .5em 0;
+}
+
+#contact-form input {
+	max-width: 100%;
+}
+
+#contact-form textarea {
+	width: 100%;
+	min-height: 150px;
+}
+
+#contact-form label {
+	display: block;
+	margin-top: .5em;
+}
+
+#contact-form input[type="submit"] {
+	margin: 0;
+}
+
+#contact-form-status {
+	display: none;
+}
+
+#contact-form label.error, #contact-form-status.error {
+	color: #cc3b3b;
+}
+
+#contact-form input.error, #contact-form textarea.error {
+	border-color: #cc3b3b;
+}
+
+
+/* Footer */
+
+#page-footer {
+	padding: 2em 0;
+	margin-top: 1.5em;
+	border-top: 1px dotted #aaa;
+}
+
+#page-footer .last {
+	text-align: right;
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+        color:black;
+    }
+}
